@@ -5,7 +5,7 @@ import Image from "next/image";
 const SectionThree = () => {
   return (
     <div className="bg-white container mx-auto px-8 py-16">
-      <div className="flex justify-between gap-16">
+      <div className="flex flex-col lg:flex-row lg:justify-between lg:gap-16">
         <div className="flex-1">
           <h3 className="text-[19.4px] text-customBlue font-semibold">
             WHO ARE WE
@@ -19,7 +19,7 @@ const SectionThree = () => {
             scrambled it
           </p>
 
-          <div className="flex flex-col gap-6 mt-8">
+          <div className="hidden lg:flex flex-col gap-6 mt-8">
             <div className="flex items-start bg-white rounded-[30px] p-6 shadow-lg w-[400px] h-[131px]">
               <div className="flex-shrink-0 mr-4">
                 <Image
@@ -60,8 +60,8 @@ const SectionThree = () => {
           </div>
         </div>
 
-        <div className="flex gap-6">
-          <div className="w-[280px] h-[500px] relative">
+        <div className="flex gap-6 mt-8 lg:mt-0 max-w-[333px] lg:max-w-none mx-auto">
+          <div className="w-[170px] h-[260px] lg:w-[280px] lg:h-[500px] relative">
             <Image
               src="/images/otel.svg"
               alt="Property 1"
@@ -71,7 +71,7 @@ const SectionThree = () => {
           </div>
 
           <div className="flex flex-col gap-6">
-            <div className="w-[277px] h-[280px] relative">
+            <div className="w-[143px] h-[141px] lg:w-[277px] lg:h-[280px] relative">
               <Image
                 src="/images/room.svg"
                 alt="Property 2"
@@ -79,13 +79,53 @@ const SectionThree = () => {
                 className="rounded-[30px] object-fill"
               />
             </div>
-            <div className="w-[277px] h-[180px] relative">
+            <div className="w-[143px] h-[100px] lg:w-[277px] lg:h-[180px] relative">
               <Image
                 src="/images/home.svg"
                 alt="Property 3"
                 fill
                 className="rounded-[30px] object-fill"
               />
+            </div>
+          </div>
+        </div>
+
+        <div className="flex flex-col gap-4 mt-8 lg:hidden">
+          <div className="flex items-start bg-white rounded-[30px] p-6 shadow-lg w-full max-w-[333px] h-[137px] mx-auto">
+            <div className="flex-shrink-0 mr-4">
+              <Image
+                src="/icons/smart-home.svg"
+                alt="Icon 1"
+                width={40}
+                height={40}
+              />
+            </div>
+            <div>
+              <h4 className="font-semibold text-customBlue text-lg mb-2">
+                Find Your Dream Home
+              </h4>
+              <p className="text-gray-600 text-sm">
+                when an unknown printer took a galley
+              </p>
+            </div>
+          </div>
+
+          <div className="flex items-start bg-white rounded-[30px] p-6 shadow-lg w-full max-w-[333px] h-[137px] mx-auto">
+            <div className="flex-shrink-0 mr-4">
+              <Image
+                src="/icons/user-actagon.svg"
+                alt="Icon 2"
+                width={40}
+                height={40}
+              />
+            </div>
+            <div>
+              <h4 className="font-semibold text-customBlue text-lg mb-2">
+                Best Real Estate Deals
+              </h4>
+              <p className="text-gray-600 text-sm">
+                when an unknown printer took a galley
+              </p>
             </div>
           </div>
         </div>
