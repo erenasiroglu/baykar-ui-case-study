@@ -130,7 +130,7 @@ const SectionFour = () => {
                     />
                     {property.badge && (
                       <div
-                        className={`absolute bottom-4 left-4 ${property.badge.color} rounded-full h-[42px] w-[141px] flex items-center justify-center`}
+                        className={`absolute bottom-4 left-4 ${property.badge.color} rounded-full h-[42px] w-[180px] gap-1 flex items-center justify-center`}
                       >
                         <Image
                           src={`/icons/section-four/${property.badge.icon}.svg`}
@@ -210,7 +210,7 @@ const SectionFour = () => {
                   />
                   {property.badge && (
                     <div
-                      className={`absolute bottom-4 left-4 ${property.badge.color} rounded-full h-[42px] w-[141px] flex items-center justify-center`}
+                      className={`absolute bottom-4 left-4 ${property.badge.color} rounded-full h-[42px] w-[180px] flex items-center justify-center`}
                     >
                       <Image
                         src={`/icons/section-four/${property.badge.icon}.svg`}
