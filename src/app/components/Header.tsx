@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Header = () => {
   return (
-    <div className="bg-customPurple flex items-center justify-between h-[40px] px-8 text-white">
+    <div className="bg-customPurple hidden md:flex items-center justify-between h-[40px] px-8 text-white">
       <div className="flex items-center">
         <Image
           src="/icons/location-icon.svg"
