@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Image from "next/image";
+import BedroomSlider from "./BedroomSlider";
 
 const SectionTwo = () => {
   const [formType, setFormType] = useState<"sale" | "rent">("sale");
@@ -27,20 +28,7 @@ const SectionTwo = () => {
             </p>
 
             <div className="mt-4 relative">
-              <Image
-                src="/images/bedroom.svg"
-                alt="Bedroom"
-                width={540}
-                height={340}
-                className="rounded-lg"
-              />
-              <Image
-                src="/icons/rectangle-2.svg"
-                alt="Decoration"
-                width={61}
-                height={61}
-                className="absolute top-0 right-0"
-              />
+              <BedroomSlider />
             </div>
           </div>
 
@@ -96,7 +84,7 @@ const SectionTwo = () => {
                 </select>
 
                 <div className="pt-2">
-                  <span className="text-customPurple cursor-pointer">
+                  <span className="text-customPurple text-customSize cursor-pointer">
                     Advance Search
                   </span>
                 </div>
