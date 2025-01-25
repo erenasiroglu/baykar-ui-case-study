@@ -36,7 +36,7 @@ const BedroomSlider = () => {
               alt="Modern Yatak Odası Görünümü 1"
               width={540}
               height={340}
-              className="rounded-lg"
+              className="rounded-lg w-full h-[210px] lg:h-[340px] object-cover"
             />
             <Image
               src="/icons/rectangle-2.svg"
