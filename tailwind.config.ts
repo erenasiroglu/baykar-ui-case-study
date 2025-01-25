@@ -11,6 +11,12 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        customPurple: "rgba(58, 12, 163, 1)",
+        customTitle: "rgba(68, 68, 68, 1)",
+        customHover: "rgba(67, 97, 238, 0.3)",
+      },
+      fontSize: {
+        customSize: "13.3px",
       },
     },
   },

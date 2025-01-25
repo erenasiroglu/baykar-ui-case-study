@@ -1,7 +1,12 @@
+import React from "react";
+import Header from "@/app/components/Header";
+import SectionOne from "@/app/components/SectionOne";
+
 export default function Home() {
   return (
-    <div className="bg-background text-foreground">
-      <h1 className="text-4xl">Hello, world!</h1>
+    <div className="min-h-screen">
+      <Header />
+      <SectionOne />
     </div>
   );
 }
