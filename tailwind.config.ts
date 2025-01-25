@@ -15,6 +15,9 @@ export default {
         customTitle: "rgba(68, 68, 68, 1)",
         customHover: "rgba(67, 97, 238, 0.3)",
         customBlue: "rgba(67, 97, 238, 1)",
+        customPink: "rgba(255, 225, 225, 1)",
+        customLightBlue: "rgba(215, 238, 255, 1)",
+        customLightGreen: "rgba(241, 255, 241, 1)",
       },
       fontSize: {
         customSize: "13.3px",
