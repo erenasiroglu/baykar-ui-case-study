@@ -20,7 +20,10 @@ export default {
         customLightGreen: "rgba(241, 255, 241, 1)",
       },
       fontSize: {
-        customSize: "13.3px",
+        'xs-custom': '13.3px',
+        'sm-custom': '16px',
+        'md-custom': '19.4px',
+        'lg-custom': '27.6px',
       },
     },
   },
