@@ -76,7 +76,7 @@ const SectionFour = () => {
       },
       {
         breakpoint: 768,
-        settings: "unslick",
+        settings: "unslick" as const,
       },
     ],
   };

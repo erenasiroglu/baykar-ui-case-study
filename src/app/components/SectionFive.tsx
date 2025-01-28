@@ -46,11 +46,13 @@ const SectionFive = () => {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 1,
+          infinite: true,
+          dots: false,
         },
       },
       {
         breakpoint: 768,
-        settings: "unslick",
+        settings: "unslick" as const,
       },
     ],
   };
